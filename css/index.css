@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap");
 .feedbackform {
-  border: 1px solid #abacad;
+  border: 1px solid #EFF1F5;
   box-sizing: border-box;
   box-shadow: 0px 0px 4px rgba(51, 51, 51, 0.2);
   border-radius: 6px;
@@ -27,7 +27,7 @@
   display: block;
   width: 294px;
   height: 42px;
-  border: 1px solid #abacad;
+  border: 1px solid #EFF1F5;
   box-sizing: border-box;
   margin: 10px 10px 30px 0px;
   padding: 0px 0px 0px 15px;
@@ -53,7 +53,7 @@
   width: 100%;
   height: 120px;
   resize: none;
-  border: 1px solid #abacad;
+  border: 1px solid #EFF1F5;
   padding: 13px 0px 0px 15px;
   margin: 10px 0px 0px 0px;
 }
@@ -379,7 +379,7 @@ h6 {
 .line {
   width: 100%;
   height: 1px;
-  background: #abacad;
+  background: #EFF1F5;
   margin: 40px auto;
 }
 @media (max-width: 650px) {
@@ -418,7 +418,7 @@ h6 {
 }
 
 .about {
-  border: 1px solid #abacad;
+  border: 1px solid #EFF1F5;
   box-sizing: border-box;
   width: 100%;
   margin: 40px 0px 0px 0px;
@@ -651,14 +651,14 @@ h6 {
   margin: 0px 0px 13px 0px;
 }
 .tender-table__select select {
-  border: 1px solid #abacad;
+  border: 1px solid #EFF1F5;
   box-sizing: border-box;
   border-radius: 3px;
   padding: 15px 0px 15px 20px;
   width: 314px;
 }
 .tender-table__input {
-  border: 1px solid #abacad;
+  border: 1px solid #EFF1F5;
   box-sizing: border-box;
   border-radius: 3px;
   padding: 15px 20px 15px 20px;
@@ -693,7 +693,7 @@ h6 {
   flex: 0 0 16px;
   height: 16px;
   background: #ffffff;
-  border: 1px solid #abacad;
+  border: 1px solid #EFF1F5;
   box-sizing: border-box;
   border-radius: 50%;
   cursor: pointer;
@@ -788,7 +788,7 @@ h6 {
 .table__row {
   display: flex;
   align-items: center;
-  border: 1px solid #abacad;
+  border: 1px solid #EFF1F5;
   box-sizing: border-box;
   padding: 15px 25px;
   margin: 0px 0px 5px 0px;

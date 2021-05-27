@@ -1,0 +1,179 @@
+.feedbackform {
+  border: 1px solid #abacad;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 4px rgba(51, 51, 51, 0.2);
+  box-shadow: 0px 0px 4px rgba(51, 51, 51, 0.2);
+  border-radius: 6px;
+  max-width: 1001px;
+  width: 100%;
+  margin: 60px auto;
+  padding: 60px 33px 60px 47px; }
+  .feedbackform__title {
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    margin: 0px 0px 40px 0px; }
+  .feedbackform__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .feedbackform__row {
+    position: relative; }
+    .feedbackform__row input {
+      position: relative;
+      display: block;
+      width: 294px;
+      height: 42px;
+      border: 1px solid #abacad;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      margin: 10px 10px 30px 0px;
+      padding: 0px 0px 0px 15px; }
+    .feedbackform__row label {
+      font-size: 13px;
+      line-height: 16px; }
+      .feedbackform__row label span {
+        color: #EB4E44; }
+  .feedbackform__file-visible-title {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    font-size: 16px;
+    line-height: 25px;
+    color: #30A657;
+    background: url("../images/04.svg") no-repeat;
+    padding: 0px 0px 0px 40px; }
+  .feedbackform__textarea-input {
+    width: 100%;
+    height: 120px;
+    resize: none;
+    border: 1px solid #abacad;
+    padding: 13px 0px 0px 15px;
+    margin: 10px 0px 0px 0px; }
+  .feedbackform__textarea span {
+    color: #EB4E44; }
+
+.feedbackform .feedbackform__file-psevdo {
+  margin: 25px 0px 0px 0px;
+  z-index: 2;
+  opacity: 0;
+  cursor: pointer; }
+
+.feedbackform .feedbackform__file-visible {
+  border: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 25px 0px 0px 0px; }
+
+input::-webkit-input-placeholder {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease; }
+
+input::-moz-placeholder {
+  opacity: 1;
+  -moz-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease; }
+
+input:-moz-placeholder {
+  opacity: 1;
+  -moz-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease; }
+
+input:-ms-input-placeholder {
+  opacity: 1;
+  -ms-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease; }
+
+input:focus::-webkit-input-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease; }
+
+input:focus::-moz-placeholder {
+  opacity: 0;
+  -moz-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease; }
+
+input:focus:-moz-placeholder {
+  opacity: 0;
+  -moz-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease; }
+
+input:focus:-ms-input-placeholder {
+  opacity: 0;
+  -ms-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease; }
+
+::-webkit-input-placeholder {
+  color: #777777;
+  font-size: 13px; }
+
+::-moz-placeholder {
+  color: #777777;
+  font-size: 13px; }
+
+/* Firefox 19+ */
+:-moz-placeholder {
+  color: #777777;
+  font-size: 13px; }
+
+/* Firefox 18- */
+:-ms-input-placeholder {
+  color: #777777;
+  font-size: 13px; }
+
+@media (max-width: 720px) {
+  .feedbackform__file-visible-title {
+    top: 5px; }
+  .feedbackform .feedbackform__file-psevdo {
+    margin: 0px 0px 0px 0px; }
+  .feedbackform .feedbackform__file-visible {
+    margin: 0px 0px 0px 0px; } }
+
+@media (max-width: 568px) {
+  .feedbackform {
+    margin: 40px auto;
+    padding: 30px 20px; }
+    .feedbackform__title {
+      font-size: 24px;
+      line-height: 29px;
+      text-align: center;
+      margin: 0px 0px 20px 0px; } }
+
+@media (max-width: 367px) {
+  .feedbackform__row {
+    height: 65px; }
+    .feedbackform__row input {
+      width: 248px;
+      height: 28px;
+      margin: 10px 10px 30px 0px;
+      padding: 0px 0px 0px 15px; }
+    .feedbackform__row label {
+      font-size: 10px;
+      line-height: 12px; }
+      .feedbackform__row label span {
+        color: #EB4E44; }
+    .feedbackform__row_margin {
+      height: 40px; }
+  .feedbackform__file-visible-title {
+    font-size: 10px;
+    line-height: 20px; }
+  .feedbackform__textarea label {
+    font-size: 10px; }
+  .feedbackform .button {
+    width: 248px; }
+  ::-webkit-input-placeholder {
+    font-size: 10px; }
+  ::-moz-placeholder {
+    font-size: 10px; }
+  /* Firefox 19+ */
+  :-moz-placeholder {
+    font-size: 10px; }
+  /* Firefox 18- */
+  :-ms-input-placeholder {
+    font-size: 10px; } }
