@@ -31,6 +31,12 @@
   box-sizing: border-box;
   margin: 10px 10px 30px 0px;
   padding: 0px 0px 0px 15px;
+  font-family: Montserrat;
+  color: #777777;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
 }
 .feedbackform__row label {
   font-size: 13px;
@@ -56,6 +62,16 @@
   border: 1px solid #EFF1F5;
   padding: 13px 0px 0px 15px;
   margin: 10px 0px 0px 0px;
+  font-family: Montserrat;
+  color: #777777;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+}
+.feedbackform__textarea label {
+  font-size: 13px;
+  line-height: 16px;
 }
 .feedbackform__textarea span {
   color: #EB4E44;
@@ -146,61 +162,52 @@ input:focus:-ms-input-placeholder {
   font-size: 13px;
 }
 
-@media (max-width: 720px) {
-  .feedbackform__file-visible-title {
-    top: 5px;
+@media (max-width: 1023px) {
+  .feedbackform__content {
+    justify-content: space-between;
   }
-
-  .feedbackform .feedbackform__file-psevdo {
-    margin: 0px 0px 0px 0px;
-  }
-
-  .feedbackform .feedbackform__file-visible {
-    margin: 0px 0px 0px 0px;
-  }
-}
-@media (max-width: 568px) {
-  .feedbackform {
-    margin: 40px auto;
-    padding: 30px 20px;
-  }
-  .feedbackform__title {
-    font-size: 24px;
-    line-height: 29px;
-    text-align: center;
-    margin: 0px 0px 20px 0px;
-  }
-}
-@media (max-width: 367px) {
   .feedbackform__row {
-    height: 65px;
+    width: 49%;
   }
   .feedbackform__row input {
-    width: 248px;
-    height: 28px;
-    margin: 10px 10px 30px 0px;
-    padding: 0px 0px 0px 15px;
+    width: 100%;
+  }
+}
+@media (max-width: 610px) {
+  .feedbackform {
+    padding: 30px 20px;
+  }
+  .feedbackform__content {
+    display: block;
+  }
+  .feedbackform__row {
+    width: 100%;
   }
   .feedbackform__row label {
     font-size: 10px;
     line-height: 12px;
   }
-  .feedbackform__row label span {
-    color: #EB4E44;
-  }
-  .feedbackform__row_margin {
-    height: 40px;
+  .feedbackform__row input {
+    font-size: 10px;
+    line-height: 12px;
+    margin: 10px 0;
   }
   .feedbackform__file-visible-title {
+    top: 0;
     font-size: 10px;
-    line-height: 20px;
+  }
+  .feedbackform__title {
+    font-size: 24px;
+    line-height: 29px;
+    margin: 0px 0px 20px 0px;
   }
   .feedbackform__textarea label {
     font-size: 10px;
+    line-height: 12px;
   }
-
-  .feedbackform .button {
-    width: 248px;
+  .feedbackform__textarea-input {
+    font-size: 10px;
+    line-height: 12px;
   }
 
   ::-webkit-input-placeholder {
@@ -219,6 +226,14 @@ input:focus:-ms-input-placeholder {
   /* Firefox 18- */
   :-ms-input-placeholder {
     font-size: 10px;
+  }
+
+  .feedbackform .feedbackform__file-visible {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .feedbackform .feedbackform__file-psevdo {
+    margin: 0px 0px 0px 0px;
   }
 }
 * {
@@ -408,13 +423,30 @@ h6 {
   border-radius: 3px;
   color: #ffffff;
   cursor: pointer;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+@media (max-width: 610px) {
+  .button {
+    font-size: 12px;
+    line-height: 14px;
+  }
 }
 .button__feedbackform {
   width: 270px;
   margin: 30px auto 0;
   display: block;
-  font-size: 16px;
-  line-height: 20px;
+}
+@media (max-width: 610px) {
+  .button__feedbackform {
+    width: 248px;
+    margin: 15px auto 0;
+    font-size: 15px;
+    line-height: 18px;
+  }
 }
 
 .about {

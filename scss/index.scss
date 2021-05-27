@@ -85,12 +85,25 @@
     border-radius: 3px;
     color: #ffffff;
     cursor: pointer;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    @media (max-width: 610px){
+        font-size: 12px;
+        line-height: 14px;
+    }
     &__feedbackform{
         width: 270px;
         margin: 30px auto 0;
         display: block;
-        font-size: 16px;
-        line-height: 20px;
+        @media (max-width: 610px){
+            width: 248px;
+            margin: 15px auto 0;
+            font-size: 15px;
+            line-height: 18px;
+        }
     }
 }
 //  =====================================================
