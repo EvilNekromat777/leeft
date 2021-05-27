@@ -342,6 +342,9 @@
 	}
 	&__select {
 		margin: 0px 30px 0px 0px;
+        &:last-child{
+            margin: 0px 0px 0px 0px;
+        }
 		p {
 			font-weight: 600;
 			font-size: 15px;
@@ -354,6 +357,8 @@
 			border-radius: 3px;
 			padding: 15px 0px 15px 20px;
 			width: 314px;
+			background: #FFFFFF;
+
 		}
 	}
 	&__input {
@@ -363,6 +368,7 @@
 		padding: 15px 20px 15px 20px;
 		width: 220px;
 		height: 48px;
+		background: #FFFFFF;
 	}
 	&__select-check {
 		display: flex;
@@ -422,10 +428,17 @@
 	.tender-table {
 		padding: 40px 0px 0px 0px;
 		&__select {
+            width: 50%;
+            select{
+                width: 100%;
+            }
 			&_margin {
-				margin: 0px 125px 0px 0px;
+				// margin: 0px 125px 0px 0px;
 			}
 		}
+        &__input{
+            width: 100%;
+        }
 		&__selects {
 			display: block;
 		}
@@ -442,6 +455,7 @@
 		}
 		&__select {
 			margin: 0px 0px 10px 0px;
+            width: 100%;
 			&_margin {
 				margin: 0px 10px 10px 0px;
 			}
@@ -463,12 +477,14 @@
 				margin: 0px 0px 10px 0px;
 			}
 			select {
-				width: 288px;
+				// width: 288px;
 				padding: 8px 0px 8px 15px;
 			}
 		}
 		&__input {
-			width: 139px;
+			// width: 139px;
+            width: 100%;
+            height: 28px;
 			padding: 8px 0px 8px 15px;
 		}
 		&__date {

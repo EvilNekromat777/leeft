@@ -644,6 +644,9 @@ h6 {
 .tender-table__select {
   margin: 0px 30px 0px 0px;
 }
+.tender-table__select:last-child {
+  margin: 0px 0px 0px 0px;
+}
 .tender-table__select p {
   font-weight: 600;
   font-size: 15px;
@@ -656,6 +659,7 @@ h6 {
   border-radius: 3px;
   padding: 15px 0px 15px 20px;
   width: 314px;
+  background: #FFFFFF;
 }
 .tender-table__input {
   border: 1px solid #EFF1F5;
@@ -664,6 +668,7 @@ h6 {
   padding: 15px 20px 15px 20px;
   width: 220px;
   height: 48px;
+  background: #FFFFFF;
 }
 .tender-table__select-check {
   display: flex;
@@ -724,8 +729,14 @@ h6 {
   .tender-table {
     padding: 40px 0px 0px 0px;
   }
-  .tender-table__select_margin {
-    margin: 0px 125px 0px 0px;
+  .tender-table__select {
+    width: 50%;
+  }
+  .tender-table__select select {
+    width: 100%;
+  }
+  .tender-table__input {
+    width: 100%;
   }
   .tender-table__selects {
     display: block;
@@ -740,6 +751,7 @@ h6 {
   }
   .tender-table__select {
     margin: 0px 0px 10px 0px;
+    width: 100%;
   }
   .tender-table__select_margin {
     margin: 0px 10px 10px 0px;
@@ -760,11 +772,11 @@ h6 {
     margin: 0px 0px 10px 0px;
   }
   .tender-table__select select {
-    width: 288px;
     padding: 8px 0px 8px 15px;
   }
   .tender-table__input {
-    width: 139px;
+    width: 100%;
+    height: 28px;
     padding: 8px 0px 8px 15px;
   }
   .tender-table__date {
