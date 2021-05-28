@@ -535,7 +535,7 @@ h6 {
 }
 .conditions__item_wrapper {
   width: 30px;
-  padding: 40px 0px 0px 0px;
+  padding: 50px 0px 0px 0px;
 }
 
 .conditions__item.zz {
@@ -601,6 +601,9 @@ h6 {
   }
   .conditions__item p {
     max-width: 100px;
+  }
+  .conditions__item_wrapper {
+    padding: 10px 0px 0px 0px;
   }
 
   .conditions__item.zz {
@@ -698,6 +701,7 @@ h6 {
 }
 .tender-table__select {
   margin: 0px 30px 0px 0px;
+  position: relative;
 }
 .tender-table__select p {
   font-weight: 600;
@@ -717,6 +721,22 @@ h6 {
   font-weight: normal;
   font-size: 15px;
   line-height: 18px;
+}
+.tender-table__plashka {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  top: 51px;
+  right: 5px;
+}
+.tender-table__arrow {
+  position: absolute;
+  top: 55px;
+  right: 20px;
+}
+.tender-table__arrow img {
+  width: 9px;
 }
 .tender-table__input {
   border: 1px solid #EFF1F5;
@@ -833,6 +853,7 @@ h6 {
     font-size: 24px;
     line-height: 29px;
     margin: 0px 0px 20px 0px;
+    text-align: center;
   }
   .tender-table__select p {
     font-size: 10px;
@@ -860,6 +881,16 @@ h6 {
   .tender-table__select-check-label span {
     font-size: 10px;
     line-height: 12px;
+  }
+  .tender-table__plashka {
+    top: 34px;
+    right: 5px;
+  }
+  .tender-table__arrow {
+    top: 37px;
+  }
+  .tender-table__arrow img {
+    width: 7px;
   }
 }
 .table {
